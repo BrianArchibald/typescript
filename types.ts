@@ -2,7 +2,28 @@
 // use tsc types.ts -w    for watch mode to compile automatically on changes
 
 let myString: string;
-myString = 'This is the way too'
+let myNum: number;
+let myBool: boolean;
+let myVar: any;
 
-console.log(myString)
+let stringArray: string[];
+let numArray: number[];
+let boolArray: boolean[];
+
+// or
+
+// let stringArray: Array<string>;
+// let numArray: Array<number>;
+// let boolArray: Array<boolean>;
+
+myString = 'This is the way too'
+myNum = 22
+myBool = true
+myVar = 5
+
+stringArray = ['Hello', 'World']
+numArray = [3, 4]
+boolArray = [true, false]
+
+console.log(myString, myNum)
 
